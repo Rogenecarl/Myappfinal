@@ -10,19 +10,19 @@
             android:title="Home"/>
 
         <item
+            android:id="@+id/nav_notif"
+            android:icon="@drawable/notification"
+            android:title="Notification"/>
+
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/favorite"
+            android:title="favorite"/>
+
+        <item
             android:id="@+id/nav_settings"
-            android:icon="@drawable/home"
+            android:icon="@drawable/settings"
             android:title="Settings"/>
-
-        <item
-            android:id="@+id/nav_share"
-            android:icon="@drawable/home"
-            android:title="Share"/>
-
-        <item
-            android:id="@+id/nav_about"
-            android:icon="@drawable/home"
-            android:title="About Us"/>
     </group>
     <item
         android:title="">
@@ -30,7 +30,7 @@
         <menu>
             <item
                 android:id="@+id/nav_logout"
-                android:icon="@drawable/home"
+                android:icon="@drawable/logout"
                 android:title="Logout"/>
         </menu>
 

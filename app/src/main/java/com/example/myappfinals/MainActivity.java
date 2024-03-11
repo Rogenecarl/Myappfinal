@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity{
 
         // Set up bottom navigation
         binding.bottomNavView.setOnItemSelectedListener(item -> {
-            if (item.getItemId() == R.id.home) {
+            if (item.getItemId() == R.id.Home) {
                 repFragment(new HomeFragment());
             }
             return true;

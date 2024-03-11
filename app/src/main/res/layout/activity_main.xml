@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
             android:orientation="horizontal"
-            android:background="@color/white"
+            android:background="@color/lavender"
             android:gravity="center_vertical"
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
@@ -27,7 +27,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:src="@drawable/muncircle"/>
+                android:src="@drawable/sidebar"/>
 
 
         </LinearLayout>
@@ -46,7 +46,7 @@
         <FrameLayout
             android:id="@+id/frame_out"
             android:layout_width="0dp"
-            android:layout_height="0dp"
+            andro.id:layout_height="0dp"
             app:layout_constraintBottom_toTopOf="@id/bottom_nav_view"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
