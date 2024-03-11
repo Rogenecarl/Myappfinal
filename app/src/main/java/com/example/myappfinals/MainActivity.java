@@ -58,6 +58,8 @@ public class MainActivity extends AppCompatActivity{
         binding.bottomNavView.setOnItemSelectedListener(item -> {
             if (item.getItemId() == R.id.Home) {
                 repFragment(new HomeFragment());
+            } else if (item.getItemId() == R.id.fav) {
+                repFragment(new FavFragment());
             }
             return true;
         });
@@ -71,6 +73,8 @@ public class MainActivity extends AppCompatActivity{
         navigationView.setNavigationItemSelectedListener(item -> {
             if (item.getItemId() == R.id.nav_home) {
                 repFragment(new HomeFragment());
+            } else if (item.getItemId() == R.id.nav_fav) {
+                repFragment(new FavFragment());
             }
             drawerLayout.closeDrawer(GravityCompat.START); // Close drawer after selection
             return true;
