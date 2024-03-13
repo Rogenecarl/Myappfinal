@@ -71,7 +71,7 @@ public class HomeFragment extends Fragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openActivity2();
+                openNextFragment();
             }
         });
 
@@ -79,8 +79,8 @@ public class HomeFragment extends Fragment {
         return view;
     }
 
-    public void openActivity2(){
-        Intent intent = new Intent(getActivity(), Activity2.class);
+    public void openNextFragment(){
+        Intent intent = new Intent(getActivity(), NextFragment.class);
         startActivity(intent);
     }
 
