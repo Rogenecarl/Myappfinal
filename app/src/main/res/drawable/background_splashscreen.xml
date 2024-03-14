@@ -4,7 +4,7 @@
         android:drawable="@color/splashcolor"/>
 
     <item>
-        <bitmap android:src="@drawable/splashh" android:gravity="center"/>
+        <bitmap android:src="@drawable/finalsplashscreen" android:gravity="center"/>
     </item>
 
 </layer-list>

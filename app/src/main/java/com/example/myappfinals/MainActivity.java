@@ -19,8 +19,6 @@ import com.example.myappfinals.databinding.ActivityMainBinding;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity{
-    private Button button;
-
     ActivityMainBinding binding;
 
     @Override
@@ -60,6 +58,12 @@ public class MainActivity extends AppCompatActivity{
                 repFragment(new HomeFragment());
             } else if (item.getItemId() == R.id.fav) {
                 repFragment(new FavFragment());
+            } else if (item.getItemId() == R.id.notif) {
+                repFragment(new NotifFragment());
+            } else if (item.getItemId() == R.id.settings) {
+                repFragment(new SettingsFragment());
+            } else if (item.getItemId() == R.id.Search) {
+                repFragment(new SearchFragment());
             }
             return true;
         });
@@ -75,12 +79,15 @@ public class MainActivity extends AppCompatActivity{
                 repFragment(new HomeFragment());
             } else if (item.getItemId() == R.id.nav_fav) {
                 repFragment(new FavFragment());
+            } else if (item.getItemId() == R.id.nav_notif) {
+                repFragment(new NotifFragment());
+            } else if (item.getItemId() == R.id.nav_settings) {
+                repFragment(new SettingsFragment());
             }
             drawerLayout.closeDrawer(GravityCompat.START); // Close drawer after selection
             return true;
         });
     }
-
 
     //navigation bottom
     private void repFragment(Fragment fragment){
@@ -89,4 +96,5 @@ public class MainActivity extends AppCompatActivity{
         fragmentTransaction.replace(R.id.frame_out,fragment);
         fragmentTransaction.commit();
     }
+
 }

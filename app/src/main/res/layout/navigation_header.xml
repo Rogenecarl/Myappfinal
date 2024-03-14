@@ -2,46 +2,52 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="190dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="bottom"
     android:padding="16dp"
-    android:background="@drawable/headerbkg"
+    android:background="#EEEEFF"
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
     android:orientation="vertical">
 
-    <LinearLayout
+
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="5dp"
-        android:orientation="vertical">
+        app:cardCornerRadius="40dp">
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="70dp"
-            android:layout_height="80dp"
-            android:src="@drawable/muncircle" />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/muncircle" />
 
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/googlesans_bold"
-            android:padding="5dp"
-            android:text="Rogene Rosalijos"
-            android:textColor="@color/white"
-            android:textSize="22sp"
-            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/googlesans_bold"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="3dp"
+                android:padding="5dp"
+                android:text="Rogene Rosalijos"
+                android:textColor="@color/lavender"
+                android:textSize="22sp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="6dp"
-            android:fontFamily="@font/googlesans_regular"
-            android:text="bajiglacostalesrosalijos@gmail.com!"
-            android:textColor="@color/white"
-            android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="114dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="bajiglacostalesrosalijos@gmail.com!"
+                android:textColor="@color/lavender"
+                android:textSize="14sp" />
 
 
-    </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
 </LinearLayout>

@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
             android:orientation="horizontal"
-            android:background="@color/lavender"
+            android:background="#EEEEFF"
             android:gravity="center_vertical"
             android:paddingStart="15dp"
             android:paddingEnd="15dp"

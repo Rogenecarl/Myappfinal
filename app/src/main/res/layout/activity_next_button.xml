@@ -4,21 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NextFragment">
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    tools:context=".NextButton">
 
-    <!--    <TextView-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:text="This is the second activity"-->
-    <!--        android:textSize="40sp"-->
-    <!--        android:gravity="center_horizontal"-->
-    <!--        android:layout_gravity="center"/>-->
     <Button
-        android:id="@+id/back_button"
+        android:id="@+id/buttonback"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Back"/>
+        android:gravity="center"
+        android:text="Back"
+        android:textSize="34sp">
+
+    </Button>
+
 
 
 </LinearLayout>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeFragment"
-    android:background="@drawable/splashscreenn">
+    android:background="#EEEEFF">
 
 
     <LinearLayout
@@ -34,7 +34,7 @@
                 android:fontFamily="@font/googlesans_bold"
                 android:padding="5dp"
                 android:text="Welcome user"
-                android:textColor="@color/white"
+                android:textColor="@color/lavender"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
@@ -46,7 +46,7 @@
                 android:layout_marginTop="40dp"
                 android:fontFamily="@font/googlesans_regular"
                 android:text="Rogene carl Rosalijos!"
-                android:textColor="@color/white"
+                android:textColor="@color/lavender"
                 android:textSize="14sp" />
 
             <ImageView
@@ -206,8 +206,8 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_margin="8dp"
-                app:cardCornerRadius="12dp"
-                app:cardBackgroundColor="#CBB69AC6"
+                app:cardCornerRadius="35dp"
+                app:cardBackgroundColor="#FFFFFF"
                 app:cardElevation="5dp">
 
                 <LinearLayout
@@ -218,8 +218,8 @@
                     android:padding="20dp">
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:src="@drawable/tiktok" />
 
                     <TextView
@@ -228,7 +228,7 @@
                         android:layout_marginTop="20dp"
                         android:fontFamily="@font/googlesans_bold"
                         android:text="Tiktok"
-                        android:textColor="@color/white"
+                        android:textColor="@color/lavender"
                         android:textSize="18sp" />
 
                 </LinearLayout>
@@ -241,8 +241,8 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_margin="8dp"
-                app:cardCornerRadius="12dp"
-                app:cardBackgroundColor="#A58CB3"
+                app:cardCornerRadius="35dp"
+                app:cardBackgroundColor="#FFFFFF"
                 app:cardElevation="5dp">
 
                 <LinearLayout
@@ -253,8 +253,8 @@
                     android:padding="20dp">
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:src="@drawable/spotify" />
 
                     <TextView
@@ -263,7 +263,7 @@
                         android:layout_marginTop="20dp"
                         android:fontFamily="@font/googlesans_bold"
                         android:text="Spotify"
-                        android:textColor="@color/white"
+                        android:textColor="@color/lavender"
                         android:textSize="18sp" />
 
                 </LinearLayout>
@@ -276,8 +276,8 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_margin="8dp"
-                app:cardCornerRadius="12dp"
-                app:cardBackgroundColor="#A58CB3"
+                app:cardCornerRadius="35dp"
+                app:cardBackgroundColor="#FFFFFF"
                 app:cardElevation="5dp">
 
                 <LinearLayout
@@ -288,8 +288,8 @@
                     android:padding="20dp">
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:src="@drawable/snapchat" />
 
                     <TextView
@@ -298,7 +298,7 @@
                         android:layout_marginTop="20dp"
                         android:fontFamily="@font/googlesans_bold"
                         android:text="Snapchat"
-                        android:textColor="@color/white"
+                        android:textColor="@color/lavender"
                         android:textSize="18sp" />
 
                 </LinearLayout>
@@ -311,8 +311,8 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_margin="8dp"
-                app:cardCornerRadius="12dp"
-                app:cardBackgroundColor="#A58CB3"
+                app:cardCornerRadius="35dp"
+                app:cardBackgroundColor="#FFFFFF"
                 app:cardElevation="5dp">
 
                 <LinearLayout
@@ -323,8 +323,8 @@
                     android:padding="20dp">
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:src="@drawable/twitter" />
 
                     <TextView
@@ -333,7 +333,7 @@
                         android:layout_marginTop="20dp"
                         android:fontFamily="@font/googlesans_bold"
                         android:text="X"
-                        android:textColor="@color/white"
+                        android:textColor="@color/lavender"
                         android:textSize="18sp" />
 
                 </LinearLayout>
@@ -346,8 +346,8 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_margin="8dp"
-                app:cardCornerRadius="12dp"
-                app:cardBackgroundColor="#A58CB3"
+                app:cardCornerRadius="35dp"
+                app:cardBackgroundColor="#FFFFFF"
                 app:cardElevation="5dp">
 
                 <LinearLayout
@@ -358,8 +358,8 @@
                     android:padding="20dp">
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:src="@drawable/instagram" />
 
                     <TextView
@@ -368,7 +368,7 @@
                         android:layout_marginTop="20dp"
                         android:fontFamily="@font/googlesans_bold"
                         android:text="Instagram"
-                        android:textColor="@color/white"
+                        android:textColor="@color/lavender"
                         android:textSize="18sp" />
 
                 </LinearLayout>
@@ -381,8 +381,8 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_margin="8dp"
-                app:cardCornerRadius="12dp"
-                app:cardBackgroundColor="#A58CB3"
+                app:cardCornerRadius="35dp"
+                app:cardBackgroundColor="#FFFFFF"
                 app:cardElevation="5dp">
 
                 <LinearLayout
@@ -393,8 +393,8 @@
                     android:padding="20dp">
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:src="@drawable/linkedin" />
 
                     <TextView
@@ -403,7 +403,7 @@
                         android:layout_marginTop="20dp"
                         android:fontFamily="@font/googlesans_bold"
                         android:text="Linkedin"
-                        android:textColor="@color/white"
+                        android:textColor="@color/lavender"
                         android:textSize="18sp" />
 
                 </LinearLayout>
@@ -416,8 +416,8 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_margin="8dp"
-                app:cardCornerRadius="12dp"
-                app:cardBackgroundColor="#A58CB3"
+                app:cardCornerRadius="35dp"
+                app:cardBackgroundColor="#FFFFFF"
                 app:cardElevation="5dp">
 
                 <LinearLayout
@@ -428,8 +428,8 @@
                     android:padding="20dp">
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:src="@drawable/facebook" />
 
                     <TextView
@@ -438,7 +438,7 @@
                         android:layout_marginTop="20dp"
                         android:fontFamily="@font/googlesans_bold"
                         android:text="Facebook"
-                        android:textColor="@color/white"
+                        android:textColor="@color/lavender"
                         android:textSize="18sp" />
 
                 </LinearLayout>
@@ -451,8 +451,8 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_margin="8dp"
-                app:cardCornerRadius="12dp"
-                app:cardBackgroundColor="#A58CB3"
+                app:cardCornerRadius="35dp"
+                app:cardBackgroundColor="#FFFFFF"
                 app:cardElevation="5dp">
 
                 <LinearLayout
@@ -463,8 +463,8 @@
                     android:padding="20dp">
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:src="@drawable/youtube" />
 
                     <TextView
@@ -473,7 +473,7 @@
                         android:layout_marginTop="20dp"
                         android:fontFamily="@font/googlesans_bold"
                         android:text="Youtube"
-                        android:textColor="@color/white"
+                        android:textColor="@color/lavender"
                         android:textSize="18sp" />
 
                 </LinearLayout>
@@ -488,14 +488,15 @@
         </GridLayout>
 
         <Button
-            android:id="@+id/next_button"
+            android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:backgroundTint="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
             android:text="Next"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:textStyle="bold"></Button>
+            android:textSize="34sp">
+
+        </Button>
 
     </LinearLayout>
 
