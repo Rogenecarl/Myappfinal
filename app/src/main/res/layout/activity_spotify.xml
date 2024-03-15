@@ -3,15 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/error"
+    android:background="@drawable/spotifybg"
     tools:context=".Spotify">
 
     <TextView
         android:id="@+id/Spotify"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
         android:text="Spotify carview"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textSize="42sp">
     </TextView>
 

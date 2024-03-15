@@ -3,16 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/error"
+    android:background="@drawable/tiktokbg"
     tools:context=".TIktok">
 
     <TextView
         android:id="@+id/cardtiktok"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="tiktok carview"
+        android:gravity="center"
+        android:text="Tiktok carview"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textSize="42sp">
+
     </TextView>
 
 

@@ -3,13 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/error"
+    android:background="@drawable/notifcard"
     tools:context=".NotifFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Notificatoin Fragment"
+        android:gravity="center"
+        android:text="notification cardview"
+        android:textAlignment="center"
+        android:textColor="#000000"
         android:textSize="42sp">
     </TextView>
 

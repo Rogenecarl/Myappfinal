@@ -3,14 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/error"
+    android:background="@drawable/settingsfrag"
     tools:context=".SettingsFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Settings Fragment"
-        android:textSize="50sp">
+        android:gravity="center"
+        android:text="Settings cardview"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="42sp">
     </TextView>
 
 </FrameLayout>

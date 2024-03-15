@@ -14,20 +14,6 @@ public class NextButton extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_next_button);
 
-        button = (Button) findViewById(R.id.buttonback);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) { openHomeFragment();
-
-            }
-
-        });
     }
-
-    public void openHomeFragment(){
-        Intent intent = new Intent(this, HomeFragment.class);
-        startActivity(intent);
-    }
-
 
 }
