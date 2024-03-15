@@ -13,6 +13,18 @@
         android:theme="@style/Theme.BottomNav"
         tools:targetApi="31">
         <activity
+            android:name=".spf"
+            android:exported="false" />
+        <activity
+            android:name=".gtav"
+            android:exported="false" />
+        <activity
+            android:name=".Spotify"
+            android:exported="false" />
+        <activity
+            android:name=".TIktok"
+            android:exported="false" />
+        <activity
             android:name=".NextButton"
             android:exported="false" />
         <activity

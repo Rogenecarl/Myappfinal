@@ -17,6 +17,8 @@ import androidx.fragment.app.Fragment;
  */
 public class HomeFragment extends Fragment {
     private Button button;
+    public CardView tiktok, cardspotify, game1, game2;
+
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -65,6 +67,29 @@ public class HomeFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
+        CardView tiktok = view.findViewById(R.id.tiktok);
+        tiktok.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {openTIktok();}
+        });
+
+        CardView cardspotify = view.findViewById(R.id.cardspotify);
+        cardspotify.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {openSpotify();}
+        });
+
+        CardView game1 = view.findViewById(R.id.game1);
+        game1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {opengtav();}
+        });
+
+        CardView game2 = view.findViewById(R.id.game2);
+        game2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {openspf();}
+        });
 
         button = view.findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
@@ -82,5 +107,27 @@ public class HomeFragment extends Fragment {
         Intent intent = new Intent(getActivity(), NextButton.class);
         startActivity(intent);
     }
+
+    public void openTIktok(){
+        Intent intent = new Intent(getActivity(), TIktok.class);
+        startActivity(intent);
+    }
+
+    public void openSpotify(){
+        Intent intent = new Intent(getActivity(), Spotify.class);
+        startActivity(intent);
+    }
+
+    public void opengtav(){
+        Intent intent = new Intent(getActivity(), gtav.class);
+        startActivity(intent);
+    }
+
+    public void openspf(){
+        Intent intent = new Intent(getActivity(), spf.class);
+        startActivity(intent);
+    }
+
+
 
 }

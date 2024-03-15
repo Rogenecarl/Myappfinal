@@ -4,13 +4,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/error"
-    tools:context=".SearchFragment">
+    tools:context=".spf">
 
     <TextView
+        android:id="@+id/special"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Search Fragment"
-        android:textSize="50sp">
+        android:text="Specail force carview"
+        android:textAlignment="center"
+        android:textSize="42sp">
     </TextView>
+
 
 </FrameLayout>
